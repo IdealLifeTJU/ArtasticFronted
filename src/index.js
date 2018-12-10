@@ -10,7 +10,7 @@ import  ReactDOM  from 'react-dom'
 import CommunityPage from './CommunityPage';
 import HomePage from './HomePage';
 import WelcomeMod from './WelcomeMod';
-
+import UserPage from './UserPage';
 
 
 
@@ -20,13 +20,13 @@ import WelcomeMod from './WelcomeMod';
 //ReactDOM.render(<HomePage/>,document.getElementById("body"));
 
 
-ReactDOM.render(<CommunityPage/>,document.getElementById("body"));
+//ReactDOM.render(<UserPage/>,document.getElementById("body"));
 
 
 //ReactDOM.render(<SearchPage/>,document.getElementById("body"));
 
 
-//ReactDOM.render(<UserPage/>,document.getElementById("body"));
+ReactDOM.render(<CommunityPage/>,document.getElementById("body"));
 
 
 //ReactDOM.render(<FloatingActionButtons/>,document.getElementById("body"));
