@@ -10,8 +10,7 @@ import  ReactDOM  from 'react-dom'
 import CommunityPage from './CommunityPage';
 import HomePage from './HomePage';
 import WelcomeMod from './WelcomeMod';
-import ArtworkPage from './ArtworkPage';
-import {Badge} from 'reactstrap'
+import UserPage from './UserPage';
 
 
 
@@ -21,13 +20,13 @@ import {Badge} from 'reactstrap'
 //ReactDOM.render(<HomePage/>,document.getElementById("body"));
 
 
-ReactDOM.render(<CommunityPage/>,document.getElementById("body"));
+//ReactDOM.render(<UserPage/>,document.getElementById("body"));
 
 
 //ReactDOM.render(<SearchPage/>,document.getElementById("body"));
 
 
-//ReactDOM.render(<UserPage/>,document.getElementById("body"));
+ReactDOM.render(<CommunityPage/>,document.getElementById("body"));
 
 
 //ReactDOM.render(<FloatingActionButtons/>,document.getElementById("body"));
